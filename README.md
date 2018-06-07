@@ -48,11 +48,11 @@ Os seguintes itens são obrigatórios na implementação do sistema:
 
 • Uso dos padrões de projeto explorados em sala de aula, sendo obrigatoriamente:
 
-o Uso do padrão “Facade” para isolar a camada de domínio da camada de apresentação;
+  o Uso do padrão “Facade” para isolar a camada de domínio da camada de apresentação;
 
-o Uso do padrão arquitetural “Domain Model” na camada de domínio;
+  o Uso do padrão arquitetural “Domain Model” na camada de domínio;
 
-o Uso do padrão “DAO” na camada de persistência.
+  o Uso do padrão “DAO” na camada de persistência.
 
 • Interface gráfica de usuário desktop (interface textual de console não será aceita);
 
@@ -66,22 +66,30 @@ do BD devem ser entregues juntamente com o código fonte) com, no mínimo, os va
 uma boa cobertura de casos de teste.
 
 # E) Desenvolvimento e avaliação do trabalho:
+
 • O trabalho pode ser realizado individualmente ou em grupos de, no máximo, 3 alunos.
+
 • É tarefa do grupo garantir que o sistema esteja apto a ser executado quando entregue (fontes,
 executáveis, libs e banco de dados populados devem ser entregues).
+
 • Mensagens de erro apresentadas durante a execução do programa, mesmo que a aplicação não pare de
 executar, serão consideradas como erros de execução.
+
 • Os trabalhos serão avaliados de acordo com o que é pedido no enunciado e o que foi realizado com
 sucesso pelo sistema. Também serão avaliadas a modelagem do sistema (correta criação das classes
 necessárias, com seus atributos e métodos, encapsulamento, e correto estabelecimento de relações entre
 as classes) e sua implementação de acordo com os conceitos de orientação a objetos e arquitetura
 multicamada.
+
 • A comprovação do uso de teste unitário e padrões de projeto será levada em conta na avaliação do
 trabalho.
+
 • Trabalhos copiados resultarão em nota zero para todos os alunos envolvidos.
 
 # F) Entrega do trabalho:
+
 • Todos os arquivos necessários a execução do sistema, bem como os arquivos-fonte, scripts de banco de
 dados e os arquivos de teste unitário, deverão ser empacotados em um único arquivo (.zip) e submetidos
 através do sistema Moodle até a data de entrega.
+
 • Não serão aceitos trabalhos enviados por correio eletrônico.
