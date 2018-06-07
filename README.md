@@ -24,11 +24,17 @@ Sobre os lances, é necessário conhecer o valor do lance e identificador de qua
 Sobre os usuários do sistema, é necessário conhecer pelo menos nome, cpf ou cnpj e endereço de e-mail.
 Quando o leilão for encerrado, o sistema deve determinar o vencedor do leilão.
 Em suma, o sistema deve permitir os seguintes casos de uso:
+
 • Cadastrar usuários;
+
 • Cadastrar leilão e bens a serem leiloados;
+
 • Encerrar leilão;
+
 • Visualizar detalhes de um leilão já terminado ou em andamento;
+
 • Cadastrar lance em um leilão em andamento;
+
 • Cancelar lance em um leilão em andamento.
 
 # C) Base de dados:
@@ -37,15 +43,24 @@ gerenciador de banco de dados.
 
 # D) Requisitos:
 Os seguintes itens são obrigatórios na implementação do sistema:
+
 • Arquitetura multicamada (pelo menos 3).
+
 • Uso dos padrões de projeto explorados em sala de aula, sendo obrigatoriamente:
+
 o Uso do padrão “Facade” para isolar a camada de domínio da camada de apresentação;
+
 o Uso do padrão arquitetural “Domain Model” na camada de domínio;
+
 o Uso do padrão “DAO” na camada de persistência.
+
 • Interface gráfica de usuário desktop (interface textual de console não será aceita);
+
 • Persistência em banco de dados relacional;
+
 • A camada de persistência deve ser implementada sem a utilização de frameworks mapeadores
 objeto/relacional (como JPA, Hibernate, etc);
+
 • O banco de dados deverá ter sido previamente populado (um arquivo contendo os scripts para geração
 do BD devem ser entregues juntamente com o código fonte) com, no mínimo, os valores necessários para
 uma boa cobertura de casos de teste.
